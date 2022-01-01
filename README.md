@@ -5,7 +5,7 @@
 ```
 We can see now a days the spreading of Covid-19 is incresing rapidly.
 
-![]("https://ichef.bbci.co.uk/news/640/cpsprodpb/8072/production/_113128823_selected_risers_cases28jun-nc.png")
+![](https://ichef.bbci.co.uk/news/640/cpsprodpb/8072/production/_113128823_selected_risers_cases28jun-nc.png)
 ```
 
 ```
