@@ -2,11 +2,10 @@
 
 ## About this project
 
-```
-We can see now a days the spreading of Covid-19 is incresing rapidly.
+We can see now a days the spreading of Covid-19 is incresing rapidly. So me and my team decided to make a project based on deep learning .
 
-![](https://ichef.bbci.co.uk/news/640/cpsprodpb/8072/production/_113128823_selected_risers_cases28jun-nc.png)
-```
+<img src="assets/1.png" width="500" height="500" style="border"/>
+
 
 ```
 This is a simple project for Detecting the face mask of a person.
