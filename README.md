@@ -32,7 +32,7 @@ For the ongoing COVID-19 pandemic, there are no efficient face mask detection ap
 - [How to Run](#how-to-run)
 - [Results](#results)
 - [Citation](#citation)
-- [Future Goals](#future-goals)
+- [Future Goals](#beginner-future-goals)
 - [Owner](#owner)
 - [License](#license)
 
