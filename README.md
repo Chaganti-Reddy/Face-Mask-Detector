@@ -86,7 +86,7 @@ The images used were real images of faces wearing masks. The images were collect
 - **RMFD dataset** ([See here](https://github.com/X-zhangyang/Real-World-Masked-Face-Dataset))
 
 ```
-These are some of image of datasets.
+These are some of the images of datasets.
 ```
 | ![](/assets/2) |
 |:--:|
