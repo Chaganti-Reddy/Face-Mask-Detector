@@ -85,6 +85,17 @@ The images used were real images of faces wearing masks. The images were collect
 - **Kaggle datasets** ([See here](https://www.kaggle.com/))
 - **RMFD dataset** ([See here](https://github.com/X-zhangyang/Real-World-Masked-Face-Dataset))
 
+```
+These are some of image of datasets.
+```
+| ![](/assets/2) |
+|:--:|
+| *Datasets with Face Mask* |
+
+| ![](/assets/3) |
+|:--:|
+| *Datasets without Face Mask* |
+
 ### Data Preprocessing
 
 Labeled data of masked faces is hard to come by, which is why we decided to set the overall still limited set of real masked faces that we have collected apart for validation and testing. Artificially generated masks that are used for training are generated as follows:
