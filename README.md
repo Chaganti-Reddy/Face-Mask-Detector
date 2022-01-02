@@ -18,53 +18,62 @@
 </div>
 
 ## :innocent: Motivation
-For the ongoing COVID-19 pandemic, there are no efficient face mask detection applications which are now in high demand for transportation means, densely populated areas, residential districts, large-scale manufacturers and other enterprises to ensure safety. The absence of large datasets of __‘with_mask’__ images has made this task cumbersome and challenging. 
+
+For the ongoing COVID-19 pandemic, there are no efficient face mask detection applications which are now in high demand for transportation means, densely populated areas, residential districts, large-scale manufacturers and other enterprises to ensure safety. The absence of large datasets of **‘with_mask’** images has made this task cumbersome and challenging.
 
 ## Table of Contents
+
 - [Features](#features)
 - [About](#about)
 - [Frameworks and Libraries](#frameworkslibraries)
 - [Datasets](#datasets)
-- [Data Preprocessing](#data-prepocessing)
-- [Downloads](#downloads)
+- [Download](#downloads)
 - [Prerequisites](#prerequisites)
 - [How to Run](#how-to-run)
-- [License](#license)
 - [Results](#results)
+- [Citation](#citation)
+- [Future Goals](#future-goals)
+- [Owner](#owner)
+- [License](#license)
 
 ## :star: Features
-- __Detection of multiple faces:__ able to detect multiple faces in one frame
-- __Support for detection of improper mask wearing:__ our model is able to detect improper mask wearing including
+
+- **Detection of multiple faces:** able to detect multiple faces in one frame
+- **Support for detection of improper mask wearing:** our model is able to detect improper mask wearing including
   (1) uncovered chin, (2) uncovered nose, and (3) uncovered nose and mouth.
-- __Alarm System for detecting without mask:__ our model is able to detect improper mask and gives an alarm to alert authorities.
+- **Alarm System for detecting without mask:** our model is able to detect improper mask and gives an alarm to alert authorities.
 
 ## :point_down: About
-This app detects human faces and proper mask wearing in images and webcam streams. 
+
+This app detects human faces and proper mask wearing in images and webcam streams.
 
 Under the COVID-19 pandemic, wearing
-mask has shown to be an effective means to control the spread of virus. The demand for an effective mask detection on 
-embedded systems of limited computing capabilities has surged, especially in highly populated areas such as public 
-transportations, hospitals, etc. Trained on MobileNetV2, a state-of-the-art lightweight deep learning model on 
+mask has shown to be an effective means to control the spread of virus. The demand for an effective mask detection on
+embedded systems of limited computing capabilities has surged, especially in highly populated areas such as public
+transportations, hospitals, etc. Trained on MobileNetV2, a state-of-the-art lightweight deep learning model on
 image classification, the app is computationally efficient to deploy to help control the spread of the disease.
 
 While many work on face mask detection has been developed since the start of the pandemic, few distinguishes whether a
-mask is worn correctly or incorrectly. Given the discovery of the new coronavirus variant in UK(:uk:), we aim to provide a 
+mask is worn correctly or incorrectly. Given the discovery of the new coronavirus variant in UK(:uk:), we aim to provide a
 more precise detection model to help strengthen enforcement of mask mandate around the world.
 
 ## :warning: Frameworks and Libraries
-- __[OpenCV](https://opencv.org/):__ Computer vision library used to process images
-- __[OpenCV DNN Face Detector](https://github.com/opencv/opencv/blob/3.4.0/samples/dnn/resnet_ssd_face_python.py):__ 
+
+- **[OpenCV](https://opencv.org/):** Computer vision library used to process images
+- **[OpenCV DNN Face Detector](https://github.com/opencv/opencv/blob/3.4.0/samples/dnn/resnet_ssd_face_python.py):**
   Caffe-based Single Shot-Multibox Detector (SSD) model used to detect faces
-- __[Tensorflow](https://www.tensorflow.org/) / [Keras](https://keras.io/):__ Deep learning framework used to build and train our models
-- __[MobileNet V2](https://arxiv.org/abs/1801.04381):__ Lightweight pre-trained model available in Keras Applications; 
+- **[Tensorflow](https://www.tensorflow.org/) / [Keras](https://keras.io/):** Deep learning framework used to build and train our models
+- **[MobileNet V2](https://arxiv.org/abs/1801.04381):** Lightweight pre-trained model available in Keras Applications;
   used as a base model for our transfer learning
-- __[Numpy](https://numpy.org/):__ 
+- **[Numpy](https://numpy.org/):**
   Caffe-based Single Shot-Multibox Detector (SSD) model used to detect faces
 
 ## :file_folder: Datasets
+
 The dataset used can be downloaded here - [Click to Download](https://github.com/Chaganti-Reddy/Face-Mask-Detector/tree/main/Face-Mask-Detector/dataset)
 
-This dataset consists of __7388__ images:
+This dataset consists of **7388** images:
+
 - `face_no_mask`: 3,846 images
 - `face_with_mask`: 3,542 images
 
@@ -72,15 +81,16 @@ Each image is a cropped real-world face image of unfixed sizes.
 
 The images used were real images of faces wearing masks. The images were collected from the following sources:
 
-* __Kaggle datasets__ ([See here](https://www.kaggle.com/))
-* __RMFD dataset__ ([See here](https://github.com/X-zhangyang/Real-World-Masked-Face-Dataset))
+- **Kaggle datasets** ([See here](https://www.kaggle.com/))
+- **RMFD dataset** ([See here](https://github.com/X-zhangyang/Real-World-Masked-Face-Dataset))
 
 ### Data Preprocessing
+
 Labeled data of masked faces is hard to come by, which is why we decided to set the overall still limited set of real masked faces that we have collected apart for validation and testing. Artificially generated masks that are used for training are generated as follows:
 
-  1. Detect the face in the image
-  2. Find the face landmarks, more specifically we need the location of the nose and chin
-  3. Apply an image of a mask to the face with the position based on the face landmarks
+1. Detect the face in the image
+2. Find the face landmarks, more specifically we need the location of the nose and chin
+3. Apply an image of a mask to the face with the position based on the face landmarks
 
 This strategy is based on the description that you can find in the [prajnasb/observations repository](https://github.com/prajnasb/observations).
 We apply different masks with different shapes and colors to generate training data, which you can find in [dataset/mask-templates](https://github.com/Chaganti-Reddy/Face-Mask-Detector/tree/main/Face-Mask-Detector/dataset/with_mask). Below you can see an example of a mask being artificially applied.
@@ -88,6 +98,7 @@ We apply different masks with different shapes and colors to generate training d
 <img src="assets/7.png" width="500">
 
 ## :link: Download
+
 The dataset is now available [here](https://drive.google.com/drive/folders/1uMx4tdP9dwuPusYoZea-F4g79nvEVLu8?usp=sharing)! (December 28, 2021)
 
 ## :key: Prerequisites
@@ -95,37 +106,46 @@ The dataset is now available [here](https://drive.google.com/drive/folders/1uMx4
 All the dependencies and required libraries are included in the file <code>requirements.txt</code> [See here](https://github.com/Chaganti-Reddy/Face-Mask-Detector/blob/main/Face-Mask-Detector/requirements.txt)
 
 ## 🚀&nbsp; Installation
+
 1. Clone the repo
+
 ```
 $ git clone https://github.com/Chaganti-Reddy/Face-Mask-Detector
 ```
 
-2. Change your directory to the cloned repo 
+2. Change your directory to the cloned repo
+
 ```
 $ cd Face-Mask-Detector
 ```
 
 3. Create a Python virtual environment named 'test' and activate it
+
 ```
 $ virtualenv test
 ```
+
 ```
 $ source test/bin/activate
 ```
 
 4. Now, run the following command in your Terminal/Command Prompt to install the libraries required
+
 ```
 $ pip3 install -r requirements.txt
 
 ```
+
 ## :bulb: How to Run
 
 1. Open terminal. Go into the cloned project directory and type the following command:
+
 ```
 $ python3 Training.py
 ```
 
 2. To detect face masks in real-time video streams type the following command:
+
 ```
 $ python3 Face_Mask_Detect.py
 ```
@@ -134,15 +154,19 @@ $ python3 Face_Mask_Detect.py
 
 #### Our model gave 98% accuracy for Face Mask Detection after training via <code>tensorflow-gpu</code>
 
-####          
+####
+
 <img src=assets/5 width=550 height=260></img>
 
 #### We got the following accuracy/loss training curve plot(for less no.of attempts)
+
 #### We will get more accuracy if we try more no.of epochs(attempts)
+
 ![](assets/6.png)
 
 ## :clap: And it's done!
-Feel free to mail me for any doubts/query 
+
+Feel free to mail me for any doubts/query
 :email: chagantivenkataramireddy1@gmail.com
 
 ---
@@ -152,6 +176,7 @@ Feel free to mail me for any doubts/query
 You are allowed to cite any part of the code or our dataset. You can use it in your Research Work or Project. Remember to provide credit to the Maintainer Chaganti Reddy by mentioning a link to this repository and her GitHub Profile.
 
 Follow this format:
+
 - Author's name - Chaganti Reddy
 - Date of publication or update in parentheses.
 - Title or description of document.
@@ -165,7 +190,9 @@ Follow this format:
 4. Adding the Email Sending feature to Face-Mask-Detector.
 
 ## :heart: Owner
-Made with :heart:&nbsp;  by [Chaganti Reddy](https://github.com/Chaganti-Reddy/)
+
+Made with :heart:&nbsp; by [Chaganti Reddy](https://github.com/Chaganti-Reddy/)
 
 ## :eyes: License
+
 MIT © [Chaganti Reddy](https://github.com/Chaganti-Reddy/Face-Mask-Detector/blob/main/LICENSE)
