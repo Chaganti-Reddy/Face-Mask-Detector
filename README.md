@@ -130,18 +130,7 @@ $ git clone https://github.com/Chaganti-Reddy/Face-Mask-Detector
 ```
 $ cd Face-Mask-Detector
 ```
-
-3. Create a Python virtual environment named 'test' and activate it
-
-```
-$ virtualenv test
-```
-
-```
-$ source test/bin/activate
-```
-
-4. Now, run the following command in your Terminal/Command Prompt to install the libraries required
+3. Now, run the following command in your Terminal/Command Prompt to install the libraries required
 
 ```
 $ pip3 install -r requirements.txt
