@@ -23,18 +23,19 @@ For the ongoing COVID-19 pandemic, there are no efficient face mask detection ap
 
 ## Table of Contents
 
-- [Features](#features)
-- [About](#about)
-- [Frameworks and Libraries](#frameworkslibraries)
-- [Datasets](#datasets)
-- [Download](#downloads)
-- [Prerequisites](#prerequisites)
-- [How to Run](#how-to-run)
-- [Results](#results)
-- [Citation](#citation)
+- [Features](#star-features)
+- [About](#point_down-about)
+- [Frameworks and Libraries](#warning-frameworks-and-libraries)
+- [Datasets](#file_folder-datasets)
+- [Download](#link-download)
+- [Prerequisites](#key-prerequisites)
+- [Installation](#-installation)
+- [How to Run](#bulb-how-to-run)
+- [Results](#key-results)
+- [Citation](#raising_hand-citation)
 - [Future Goals](#beginner-future-goals)
-- [Owner](#owner)
-- [License](#license)
+- [Owner](#heart-owner)
+- [License](#eyes-license)
 
 ## :star: Features
 
