@@ -139,11 +139,12 @@ $ pip3 install -r requirements.txt
 
 ## :bulb: How to Run
 
-1. Open terminal. Go into the cloned project directory and type the following command:
+1. Open terminal. Go into the cloned project directory and type the following command: (For training purpose only..) 
 
 ```
 $ python3 Training.py
 ```
+- If you want to test directly run this command without above command..
 
 2. To detect face masks in real-time video streams type the following command:
 
