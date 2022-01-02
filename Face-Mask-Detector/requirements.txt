@@ -1,0 +1,11 @@
+tensorflow
+keras
+imutils
+numpy
+opencv-python
+matplotlib
+scipy
+scikit-learn
+pillow
+pygame
+matplotlib
