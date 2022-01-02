@@ -99,7 +99,7 @@ We apply different masks with different shapes and colors to generate training d
 
 ## :link: Download
 
-The dataset is now available [here](https://drive.google.com/drive/folders/1uMx4tdP9dwuPusYoZea-F4g79nvEVLu8?usp=sharing)! (December 28, 2021)
+The dataset is now available [here](https://drive.google.com/file/d/1QHnwvLpOHpUdhFRc9W3yIPP42iwaeIq8/view?usp=sharing)! (December 28, 2021)
 
 ## :key: Prerequisites
 
