@@ -14,7 +14,7 @@
     <!-- Forks -->
     <img src="https://img.shields.io/github/forks/achen353/Face-Mask-Detector?style=flat-square"/>
     <!-- Open Issues -->
-    <a href="https://github.com/Chaganti-Reddy/Face-Mask-Detector/issues"><img src="https://img.shields.io/github/issues/achen353/Face-Mask-Detector?style=flat-square"/></a>
+    <a href="https://gitlab.com/Chaganti-Reddy/Face-Mask-Detector/-/issues"><img src="https://img.shields.io/github/issues/achen353/Face-Mask-Detector?style=flat-square"/></a>
 </div>
 
 ## :innocent: Motivation
@@ -71,7 +71,7 @@ more precise detection model to help strengthen enforcement of mask mandate arou
 
 ## :file_folder: Datasets
 
-The dataset used can be downloaded here - [Click to Download](https://github.com/Chaganti-Reddy/Face-Mask-Detector/tree/main/Face-Mask-Detector/dataset)
+The dataset used can be downloaded here - [Click to Download](https://gitlab.com/Chaganti-Reddy/Face-Mask-Detector/-/tree/main/Face-Mask-Detector/dataset)
 
 This dataset consists of **7388** images:
 
@@ -105,7 +105,7 @@ Labeled data of masked faces is hard to come by, which is why we decided to set 
 3. Apply an image of a mask to the face with the position based on the face landmarks
 
 This strategy is based on the description that you can find in the [prajnasb/observations repository](https://github.com/prajnasb/observations).
-We apply different masks with different shapes and colors to generate training data, which you can find in [dataset/mask-templates](https://github.com/Chaganti-Reddy/Face-Mask-Detector/tree/main/Face-Mask-Detector/dataset/with_mask). Below you can see an example of a mask being artificially applied.
+We apply different masks with different shapes and colors to generate training data, which you can find in [dataset/mask-templates](https://gitlab.com/Chaganti-Reddy/Face-Mask-Detector/-/tree/main/Face-Mask-Detector/dataset/with_mask). Below you can see an example of a mask being artificially applied.
 
 <img src="assets/7.png" width="500">
 
@@ -115,14 +115,14 @@ The dataset is now available [here](https://drive.google.com/file/d/1QHnwvLpOHpU
 
 ## :key: Prerequisites
 
-All the dependencies and required libraries are included in the file <code>requirements.txt</code> [See here](https://github.com/Chaganti-Reddy/Face-Mask-Detector/blob/main/Face-Mask-Detector/requirements.txt)
+All the dependencies and required libraries are included in the file <code>requirements.txt</code> [See here](https://gitlab.com/Chaganti-Reddy/Face-Mask-Detector/-/blob/main/Face-Mask-Detector/requirements.txt)
 
 ## 🚀&nbsp; Installation
 
 1. Clone the repo
 
 ```
-$ git clone https://github.com/Chaganti-Reddy/Face-Mask-Detector
+$ git clone https://gitlab.com/Chaganti-Reddy/Face-Mask-Detector.git
 ```
 
 2. Change your directory to the cloned repo
@@ -193,8 +193,8 @@ Follow this format:
 
 ## :heart: Owner
 
-Made with :heart:&nbsp; by [Chaganti Reddy](https://github.com/Chaganti-Reddy/)
+Made with :heart:&nbsp; by [Chaganti Reddy](https://gitlab.com/Chaganti-Reddy/)
 
 ## :eyes: License
 
-MIT © [Chaganti Reddy](https://github.com/Chaganti-Reddy/Face-Mask-Detector/blob/main/LICENSE)
+MIT © [Chaganti Reddy](https://gitlab.com/Chaganti-Reddy/Face-Mask-Detector/-/blob/main/LICENSE)
