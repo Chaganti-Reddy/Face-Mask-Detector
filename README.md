@@ -158,7 +158,7 @@ $ python3 Face_Mask_Detect.py
 
 ####
 
-<img src=assets/5 width=550 height=260></img>
+<img src=assets/5.png width=550 height=260></img>
 
 #### We got the following accuracy/loss training curve plot(for less no.of attempts)
 
