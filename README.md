@@ -71,7 +71,7 @@ more precise detection model to help strengthen enforcement of mask mandate arou
 
 ## :file_folder: Datasets
 
-The dataset used can be downloaded here - [Click to Download](https://github.com/Chaganti-Reddy/Face-Mask-Detector/tree/main/Face-Mask-Detector/dataset)
+The dataset used can be downloaded here - [Click to Download](https://drive.google.com/file/d/1QHnwvLpOHpUdhFRc9W3yIPP42iwaeIq8/view?usp=sharing)
 
 This dataset consists of **7388** images:
 
