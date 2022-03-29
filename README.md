@@ -132,6 +132,8 @@ $ git clone https://github.com/Chaganti-Reddy/Face-Mask-Detector.git
 $ cd Face-Mask-Detector
 ```
 
+Before running the command copy the downloaded dataset folder to face-mask-detector folder...
+
 3. Now, run the following command in your Terminal/Command Prompt to install the libraries required
 
 ```
