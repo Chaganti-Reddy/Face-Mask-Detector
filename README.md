@@ -204,6 +204,3 @@ Made with :heart:&nbsp; by [Chaganti Reddy](https://github.com/Chaganti-Reddy/)
 
 MIT © [Chaganti Reddy](https://github.com/Chaganti-Reddy/Face-Mask-Detector/blob/main/LICENSE)
 
-<a href="https://github.com/Chaganti-Reddy/Face-Mask-Detector/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Chaganti-Reddy/Face-Mask-Detector" />
-</a>
