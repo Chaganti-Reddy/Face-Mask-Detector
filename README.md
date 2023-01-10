@@ -27,7 +27,6 @@ For the ongoing COVID-19 pandemic, there are no efficient face mask detection ap
 - [About](#point_down-about)
 - [Frameworks and Libraries](#warning-frameworks-and-libraries)
 - [Datasets](#file_folder-datasets)
-- [Download](#link-download)
 - [Prerequisites](#key-prerequisites)
 - [Installation](#-installation)
 - [How to Run](#bulb-how-to-run)
@@ -71,15 +70,6 @@ more precise detection model to help strengthen enforcement of mask mandate arou
 
 ## :file_folder: Datasets
 
-The dataset used can be downloaded here - [Click to Download](https://drive.google.com/file/d/1QHnwvLpOHpUdhFRc9W3yIPP42iwaeIq8/view?usp=sharing)
-
-This dataset consists of **7388** images:
-
-- `face_no_mask`: 3,846 images
-- `face_with_mask`: 3,542 images
-
-Each image is a cropped real-world face image of unfixed sizes.
-
 The images used were real images of faces wearing masks. The images were collected from the following sources:
 
 - **Kaggle datasets** ([See here](https://www.kaggle.com/))
@@ -109,10 +99,6 @@ This strategy is based on the description that you can find in the [prajnasb/obs
 We apply different masks with different shapes and colors to generate training data, which you can find in [dataset/mask-templates](https://github.com/Chaganti-Reddy/Face-Mask-Detector/tree/main/Face-Mask-Detector/dataset/with_mask). Below you can see an example of a mask being artificially applied.
 
 <img src="assets/7.png" width="500">
-
-## :link: Download
-
-The dataset is now available [here](https://drive.google.com/file/d/1QHnwvLpOHpUdhFRc9W3yIPP42iwaeIq8/view?usp=sharing)! (December 28, 2021)
 
 ## :key: Prerequisites
 
