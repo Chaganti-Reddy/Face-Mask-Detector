@@ -14,7 +14,7 @@
     <!-- Forks -->
     <img src="https://img.shields.io/github/forks/achen353/Face-Mask-Detector?style=flat-square"/>
     <!-- Open Issues -->
-    <a href="https://github.com/Chaganti-Reddy/Face-Mask-Detector/issues"><img src="https://img.shields.io/github/issues/achen353/Face-Mask-Detector?style=flat-square"/></a>
+    <a href="https://github.com/Chaganti-Reddy/Face-Mask-Detector/issues"><img src="https://img.shields.io/github/issues/achen353/Face-Mask-Detector?style=flat-square"/></a>  
 </div>
 
 ## :innocent: Motivation
