@@ -66,7 +66,7 @@ more precise detection model to help strengthen enforcement of mask mandate arou
 - **[MobileNet V2](https://arxiv.org/abs/1801.04381):** Lightweight pre-trained model available in Keras Applications;
   used as a base model for our transfer learning
 - **[Numpy](https://numpy.org/):**
-  Caffe-based Single Shot-Multibox Detector (SSD) model used to detect faces
+ NumPy is a Python library used for working with arrays.
 
 ## :file_folder: Datasets
 
