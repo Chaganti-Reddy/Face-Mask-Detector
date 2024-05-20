@@ -14,7 +14,7 @@
     <!-- Forks -->
     <img src="https://img.shields.io/github/forks/achen353/Face-Mask-Detector?style=flat-square"/>
     <!-- Open Issues -->
-    <a href="https://gitlab.com/Chaganti-Reddy/Face-Mask-Detector/-/issues"><img src="https://img.shields.io/github/issues/achen353/Face-Mask-Detector?style=flat-square"/></a>
+    <a href="https://github.com/Chaganti-Reddy/Face-Mask-Detector/issues"><img src="https://img.shields.io/github/issues/achen353/Face-Mask-Detector?style=flat-square"/></a>  
 </div>
 
 ## :innocent: Motivation
@@ -27,7 +27,6 @@ For the ongoing COVID-19 pandemic, there are no efficient face mask detection ap
 - [About](#point_down-about)
 - [Frameworks and Libraries](#warning-frameworks-and-libraries)
 - [Datasets](#file_folder-datasets)
-- [Download](#link-download)
 - [Prerequisites](#key-prerequisites)
 - [Installation](#-installation)
 - [How to Run](#bulb-how-to-run)
@@ -67,7 +66,7 @@ more precise detection model to help strengthen enforcement of mask mandate arou
 - **[MobileNet V2](https://arxiv.org/abs/1801.04381):** Lightweight pre-trained model available in Keras Applications;
   used as a base model for our transfer learning
 - **[Numpy](https://numpy.org/):**
-  Caffe-based Single Shot-Multibox Detector (SSD) model used to detect faces
+ NumPy is a Python library used for working with arrays.
 
 ## :file_folder: Datasets
 
@@ -80,6 +79,8 @@ This dataset consists of **7388** images:
 
 Each image is a cropped real-world face image of unfixed sizes.
 
+=======
+
 The images used were real images of faces wearing masks. The images were collected from the following sources:
 
 - **Kaggle datasets** ([See here](https://www.kaggle.com/))
@@ -88,13 +89,14 @@ The images used were real images of faces wearing masks. The images were collect
 ```
 These are some of the images of datasets.
 ```
-| ![](/assets/2) |
-|:--:|
-| *Datasets with Face Mask* |
 
-| ![](/assets/3) |
-|:--:|
-| *Datasets without Face Mask* |
+|    ![](/assets/2.png)     |
+| :-----------------------: |
+| _Datasets with Face Mask_ |
+
+|      ![](/assets/3.png)      |
+| :--------------------------: |
+| _Datasets without Face Mask_ |
 
 ### Data Preprocessing
 
@@ -109,10 +111,6 @@ We apply different masks with different shapes and colors to generate training d
 
 <img src="assets/7.png" width="500">
 
-## :link: Download
-
-The dataset is now available [here](https://drive.google.com/file/d/1QHnwvLpOHpUdhFRc9W3yIPP42iwaeIq8/view?usp=sharing)! (December 28, 2021)
-
 ## :key: Prerequisites
 
 All the dependencies and required libraries are included in the file <code>requirements.txt</code> [See here](https://gitlab.com/Chaganti-Reddy/Face-Mask-Detector/-/blob/main/Face-Mask-Detector/requirements.txt)
@@ -122,7 +120,7 @@ All the dependencies and required libraries are included in the file <code>requi
 1. Clone the repo
 
 ```
-$ git clone https://gitlab.com/Chaganti-Reddy/Face-Mask-Detector.git
+$ git clone https://github.com/Chaganti-Reddy/Face-Mask-Detector.git
 ```
 
 2. Change your directory to the cloned repo
@@ -130,6 +128,9 @@ $ git clone https://gitlab.com/Chaganti-Reddy/Face-Mask-Detector.git
 ```
 $ cd Face-Mask-Detector
 ```
+
+Before running the command copy the downloaded dataset folder to face-mask-detector folder...
+
 3. Now, run the following command in your Terminal/Command Prompt to install the libraries required
 
 ```
@@ -139,11 +140,12 @@ $ pip3 install -r requirements.txt
 
 ## :bulb: How to Run
 
-1. Open terminal. Go into the cloned project directory and type the following command: (For training purpose only..) 
+1. Open terminal. Go into the cloned project directory and type the following command: (For training purpose only..)
 
 ```
 $ python3 Training.py
 ```
+
 - If you want to test directly run this command without above command..
 
 2. To detect face masks in real-time video streams type the following command:
@@ -158,7 +160,7 @@ $ python3 Face_Mask_Detect.py
 
 ####
 
-<img src=assets/5 width=550 height=260></img>
+<img src=assets/5.png width=550 height=260></img>
 
 #### We got the following accuracy/loss training curve plot(for less no.of attempts)
 
@@ -196,5 +198,5 @@ Follow this format:
 Made with :heart:&nbsp; by [Chaganti Reddy](https://gitlab.com/Chaganti-Reddy/)
 
 ## :eyes: License
-
-MIT © [Chaganti Reddy](https://gitlab.com/Chaganti-Reddy/Face-Mask-Detector/-/blob/main/LICENSE)
+=======
+MIT © [Chaganti Reddy](https://github.com/Chaganti-Reddy/Face-Mask-Detector/blob/main/LICENSE)
